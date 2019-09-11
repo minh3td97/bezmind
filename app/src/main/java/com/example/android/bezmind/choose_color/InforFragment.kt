@@ -1,6 +1,5 @@
 package com.example.android.bezmind.choose_color
 
-import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,14 +8,17 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.android.bezmind.databinding.InforFragmentBinding
-import com.example.android.bezmind.welcome.WelcomeFragment
-import com.example.android.bezmind.welcome.WelcomeViewModel
-import com.jakewharton.rxbinding2.view.clicks
-import com.jakewharton.rxbinding2.view.selected
+import com.jakewharton.rxbinding2.widget.color
 import io.reactivex.disposables.CompositeDisposable
 import jp.qosmo.neurobeatbox.obtainViewModel
 import timber.log.Timber
-import java.util.concurrent.TimeUnit
+import android.R.attr.button
+import android.graphics.Color
+import com.example.android.bezmind.R
+
+//import javax.swing.text.StyleConstants.getBackground
+
+
 
 class InforFragment : Fragment() {
     private lateinit var binding: InforFragmentBinding
@@ -47,29 +49,108 @@ class InforFragment : Fragment() {
     private fun bindInputsTo(inputs: InforViewModel) {
 
     }
+    private var listColors =
+        arrayOf(
+            R.color.color_white_choose,
+            R.color.color_red,
+            R.color.color_orange,
+            R.color.color_green,
+            R.color.color_yellow,
+            R.color.color_clayan,
+            R.color.color_blue,
+            R.color.color_light_violet,
+            R.color.color_violet,
+            R.color.color_pink,
+            R.color.color_pink_2,
+            R.color.color_default
+        )
+    private var curPlayer1Color = 0
+    private var curPlayer2Color = 11
     private fun setupColorChoosingButton(){
-        var player1ButtonColors =
+        var player1Button =
             arrayOf(
-                binding.button1,
-                binding.button2,
-                binding.button3
+                binding.button01,
+                binding.button11,
+                binding.button21,
+                binding.button31,
+                binding.button41,
+                binding.button51,
+                binding.button61,
+                binding.button71,
+                binding.button81,
+                binding.button91,
+                binding.button101,
+                binding.button111
             )
-//        player1ButtonColors.forEach { button ->
-//            button.setOnClickListener {
-//
-//                it.isSelected = true
-//                Timber.v("click")
-//            }
-//        }
-        binding.button1.setOnClickListener{
-            binding.bkgPlayer1.setBackgroundColor(Color.parseColor("#FF8080"))
-            it.isSelected = true
-        }
-        binding.button2.setOnClickListener{
-            binding.bkgPlayer2.setBackgroundColor(Color.parseColor("#FF8080"))
-            it.isSelected = true
-        }
+        var player2Button =
+            arrayOf(
+                binding.button02,
+                binding.button12,
+                binding.button22,
+                binding.button32,
+                binding.button42,
+                binding.button52,
+                binding.button62,
+                binding.button72,
+                binding.button82,
+                binding.button92,
+                binding.button102,
+                binding.button112
+            )
+        var player1ButtonBkg =
+            arrayOf(
+                binding.bkgButton01,
+                binding.bkgButton11,
+                binding.bkgButton21,
+                binding.bkgButton31,
+                binding.bkgButton41,
+                binding.bkgButton51,
+                binding.bkgButton61,
+                binding.bkgButton71,
+                binding.bkgButton81,
+                binding.bkgButton91,
+                binding.bkgButton101,
+                binding.bkgButton111
 
+
+            )
+        var player2ButtonBkg =
+            arrayOf(
+                binding.bkgButton02,
+                binding.bkgButton12,
+                binding.bkgButton22,
+                binding.bkgButton32,
+                binding.bkgButton42,
+                binding.bkgButton52,
+                binding.bkgButton62,
+                binding.bkgButton72,
+                binding.bkgButton82,
+                binding.bkgButton92,
+                binding.bkgButton102,
+                binding.bkgButton112
+            )
+
+        player1ButtonBkg[curPlayer1Color].visibility = Button.VISIBLE
+        player2ButtonBkg[curPlayer2Color].visibility = Button.VISIBLE
+
+        for ((index, button) in player1Button.withIndex() ){
+            button.setOnClickListener{
+                player1ButtonBkg[curPlayer1Color].visibility = Button.INVISIBLE
+                player1ButtonBkg[index].visibility = Button.VISIBLE
+                binding.bkgPlayer1.setBackgroundColor(getResources().getColor(listColors[index]))
+                binding.bkgPlayer1.alpha = 0.4f
+                curPlayer1Color = index
+            }
+        }
+        for((index, button) in player2Button.withIndex()){
+            button.setOnClickListener{
+                player2ButtonBkg[curPlayer2Color].visibility = Button.INVISIBLE
+                player2ButtonBkg[index].visibility = Button.VISIBLE
+                binding.bkgPlayer2.setBackgroundColor(getResources().getColor(listColors[index]))
+                binding.bkgPlayer2.alpha = 0.65f
+                curPlayer2Color = index
+            }
+        }
     }
 
 

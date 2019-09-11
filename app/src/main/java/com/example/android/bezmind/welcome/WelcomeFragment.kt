@@ -37,7 +37,7 @@ class WelcomeFragment: Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.welcomeFragment = viewModel
+        binding.viewModel = viewModel
         bindInputsTo(viewModel)
         makeGameNameMove()
         setupSpots()
