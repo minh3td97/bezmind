@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.android.bezmind.choose_color.InforViewModel
 import com.example.android.bezmind.welcome.WelcomeViewModel
 
 
@@ -17,6 +18,10 @@ class ViewModelFactory private constructor(
 
                     isAssignableFrom(WelcomeViewModel::class.java) ->
                         WelcomeViewModel(
+                            application
+                        )
+                    isAssignableFrom(InforViewModel::class.java) ->
+                        InforViewModel(
                             application
                         )
                     else ->

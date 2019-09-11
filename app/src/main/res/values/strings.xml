@@ -2,4 +2,6 @@
     <string name="app_name">bezmind</string>
     <string name="gameName">bezmind</string>
     <string name="start_button_text">Tap to start game</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
 </resources>
