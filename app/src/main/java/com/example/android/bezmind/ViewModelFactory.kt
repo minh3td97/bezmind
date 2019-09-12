@@ -5,6 +5,7 @@ import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.bezmind.choose_color.InforViewModel
+import com.example.android.bezmind.main_game.MainGameViewModel
 import com.example.android.bezmind.welcome.WelcomeViewModel
 
 
@@ -22,6 +23,10 @@ class ViewModelFactory private constructor(
                         )
                     isAssignableFrom(InforViewModel::class.java) ->
                         InforViewModel(
+                            application
+                        )
+                    isAssignableFrom(MainGameViewModel::class.java) ->
+                        MainGameViewModel(
                             application
                         )
                     else ->

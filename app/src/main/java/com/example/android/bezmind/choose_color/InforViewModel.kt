@@ -12,6 +12,13 @@ class InforViewModel (
     companion object {
         const val TAG = "InforViewModel"
     }
+    val goToMainGame = PublishProcessor.create<Unit>()
+
+    fun onTapStartButton(){
+        Timber.v("-----------------------Click")
+        goToMainGame.onNext(Unit)
+    }
+
 
     override fun onCleared() {
         Timber.v("onCleared")

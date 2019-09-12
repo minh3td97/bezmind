@@ -15,6 +15,9 @@ import timber.log.Timber
 import android.R.attr.button
 import android.graphics.Color
 import com.example.android.bezmind.R
+import com.example.android.bezmind.welcome.WelcomeFragment
+import com.jakewharton.rxbinding2.view.clicks
+import java.util.concurrent.TimeUnit
 
 //import javax.swing.text.StyleConstants.getBackground
 
@@ -47,7 +50,15 @@ class InforFragment : Fragment() {
 
     }
     private fun bindInputsTo(inputs: InforViewModel) {
-
+        with(binding) {
+            disposeBag.add (
+                startButton.clicks()
+                    .throttleFirst(InforFragment.DOUBLE_CLICK_PROTECTION_INTERVAL, TimeUnit.MILLISECONDS)
+                    .subscribe {
+                        inputs?.onTapStartButton()
+                    }
+            )
+        }
     }
     private var listColors =
         arrayOf(

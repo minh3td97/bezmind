@@ -4,4 +4,6 @@
     <string name="start_button_text">Tap to start game</string>
     <string name="player1">Player 1</string>
     <string name="player2">Player 2</string>
+    <string name="defautl_score">Score : 0</string>
+    <string name="time_counter">00:29</string>
 </resources>

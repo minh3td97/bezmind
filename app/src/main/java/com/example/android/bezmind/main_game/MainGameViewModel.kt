@@ -1,23 +1,23 @@
-package com.example.android.bezmind.welcome
+package com.example.android.bezmind.main_game
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import timber.log.Timber
 import io.reactivex.processors.PublishProcessor
 
-class WelcomeViewModel(
+class MainGameViewModel(
     private var context: Application
     ) : AndroidViewModel(context){
 
     companion object {
-        const val TAG = "WelcomeViewModel"
+        const val TAG = "MainGameViewModel"
     }
 
-    val goToInforProcessor = PublishProcessor.create<Unit>()
+    val goToMainProcessor = PublishProcessor.create<Unit>()
 
     fun onTapStartButton(){
         Timber.v("-----------------------Click")
-        goToInforProcessor.onNext(Unit)
+        goToMainProcessor.onNext(Unit)
     }
 
     override fun onCleared() {
