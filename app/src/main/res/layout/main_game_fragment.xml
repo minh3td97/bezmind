@@ -93,7 +93,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -122,7 +122,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -149,7 +149,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -178,7 +178,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -205,7 +205,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -234,7 +234,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -261,7 +261,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -290,7 +290,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -317,7 +317,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -346,7 +346,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -373,7 +373,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -402,7 +402,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -429,7 +429,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -458,7 +458,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -485,7 +485,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -514,7 +514,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
             <com.wajahatkarim3.easyflipview.EasyFlipView
@@ -540,7 +540,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -569,7 +569,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -596,7 +596,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -625,7 +625,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -652,7 +652,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -681,7 +681,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -708,7 +708,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -737,7 +737,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -764,7 +764,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -793,7 +793,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -820,7 +820,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -849,7 +849,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -876,7 +876,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -905,7 +905,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -932,7 +932,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -961,7 +961,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -988,7 +988,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1017,7 +1017,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1044,7 +1044,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1073,7 +1073,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1100,7 +1100,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1129,7 +1129,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1156,7 +1156,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1185,7 +1185,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1212,7 +1212,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1241,7 +1241,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1268,7 +1268,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1297,7 +1297,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1324,7 +1324,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1353,7 +1353,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1380,7 +1380,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1409,7 +1409,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1436,7 +1436,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1465,7 +1465,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1492,7 +1492,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1521,7 +1521,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1548,7 +1548,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1577,7 +1577,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1604,7 +1604,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1633,7 +1633,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1660,7 +1660,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1689,7 +1689,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1716,7 +1716,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1745,7 +1745,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1772,7 +1772,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1801,7 +1801,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1828,7 +1828,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
 
@@ -1857,7 +1857,7 @@
                 <ImageView
                         android:layout_width="44dp"
                         android:layout_height="44dp"
-                        app:srcCompat="@drawable/flip_side" />
+                        app:srcCompat="@drawable/card_back_img" />
 
             </com.wajahatkarim3.easyflipview.EasyFlipView>
         </androidx.constraintlayout.widget.ConstraintLayout>
