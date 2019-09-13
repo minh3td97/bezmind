@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="viewModel"
+                type="com.example.android.bezmind.finish_game.FinishViewModel"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <View
+                android:id="@+id/background"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/winnerText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/contour"
+                android:text="@string/winner"
+                android:textAlignment="center"
+                android:textSize="@dimen/winner_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/background" />
+
+        <ImageView
+                android:id="@+id/heartWinner"
+                android:layout_width="126dp"
+                android:layout_height="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/background"
+                app:layout_constraintTop_toBottomOf="@+id/winnerText"
+                app:srcCompat="@drawable/heart" />
+
+        <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/impact"
+                android:text="@string/defautl_score"
+                android:textAlignment="center"
+                android:textColor="#EBEBEB"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="@+id/background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heartWinner" />
+
+        <ImageView
+                android:id="@+id/play_again_button"
+                android:layout_width="210dp"
+                android:layout_height="101dp"
+                app:layout_constraintBottom_toBottomOf="@+id/background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/score"
+                app:srcCompat="@drawable/play_again" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

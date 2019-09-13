@@ -1,26 +1,23 @@
-package com.example.android.bezmind.main_game
+package com.example.android.bezmind.finish_game
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import timber.log.Timber
 import io.reactivex.processors.PublishProcessor
 
-class MainGameViewModel(
+class FinishViewModel(
     private var context: Application
-    ) : AndroidViewModel(context){
+) : AndroidViewModel(context){
 
     companion object {
         const val TAG = "MainGameViewModel"
     }
-    var colorPlayer1 = 0
-    var colorPlayer2 = 0
-    var isFirstWinner = true
-    var scoreWinner = 0
-    val goToEndGame = PublishProcessor.create<Unit>()
 
-    fun onEndGame(){
+    val goBackInfor = PublishProcessor.create<Unit>()
+
+    fun onGoBackInfor(){
         Timber.v("-----------------------Endgame")
-        goToEndGame.onNext(Unit)
+        goBackInfor.onNext(Unit)
     }
 
     override fun onCleared() {

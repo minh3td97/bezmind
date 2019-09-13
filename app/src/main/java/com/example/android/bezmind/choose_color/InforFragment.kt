@@ -143,21 +143,30 @@ class InforFragment : Fragment() {
 
         player1ButtonBkg[curPlayer1Color].visibility = Button.VISIBLE
         player2ButtonBkg[curPlayer2Color].visibility = Button.VISIBLE
+        viewModel.colorPlayer1 = getResources().getColor(listColors[curPlayer1Color])
+        viewModel.colorPlayer2 = getResources().getColor(listColors[curPlayer2Color])
+
 
         for ((index, button) in player1Button.withIndex() ){
             button.setOnClickListener{
                 player1ButtonBkg[curPlayer1Color].visibility = Button.INVISIBLE
                 player1ButtonBkg[index].visibility = Button.VISIBLE
-                binding.bkgPlayer1.setBackgroundColor(getResources().getColor(listColors[index]))
+                var color = getResources().getColor(listColors[index])
+                viewModel.colorPlayer1 = color
+                binding.bkgPlayer1.setBackgroundColor(color)
                 binding.bkgPlayer1.alpha = 0.4f
                 curPlayer1Color = index
+
             }
         }
         for((index, button) in player2Button.withIndex()){
             button.setOnClickListener{
                 player2ButtonBkg[curPlayer2Color].visibility = Button.INVISIBLE
                 player2ButtonBkg[index].visibility = Button.VISIBLE
-                binding.bkgPlayer2.setBackgroundColor(getResources().getColor(listColors[index]))
+                var color = getResources().getColor(listColors[index])
+                binding.bkgPlayer2.setBackgroundColor(color)
+                viewModel.colorPlayer2 = color
+                viewModel.colorPlayer2
                 binding.bkgPlayer2.alpha = 0.65f
                 curPlayer2Color = index
             }

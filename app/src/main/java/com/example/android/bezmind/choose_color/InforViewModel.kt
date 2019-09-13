@@ -13,11 +13,14 @@ class InforViewModel (
         const val TAG = "InforViewModel"
     }
     val goToMainGame = PublishProcessor.create<Unit>()
+    var colorPlayer1 = 0
+    var colorPlayer2 = 0
 
     fun onTapStartButton(){
         Timber.v("-----------------------Click")
         goToMainGame.onNext(Unit)
     }
+
 
 
     override fun onCleared() {

@@ -47,14 +47,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:fontFamily="@font/strumpf_open"
+                        android:fontFamily="@font/contour"
                         android:text="@string/player1"
                         android:textAlignment="center"
                         android:textColor="#444242"
                         android:textSize="36sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
+                        app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                         android:id="@+id/bkg_button_0_1"
@@ -370,7 +370,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:fontFamily="@font/strumpf_open"
+                        android:fontFamily="@font/contour"
                         android:text="@string/player2"
                         android:textAlignment="center"
                         android:textColor="#444242"
