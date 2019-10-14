@@ -5,4 +5,19 @@
     <color name="colorAccent">#D81B60</color>
     <color name="white">#FFFFFF</color>
     <color name="bkg_blue">#76C2D9</color>
+
+    <color name="color_white_choose">#EBEBEB</color>
+    <color name="color_default">#A5A5A5</color>
+    <color name="color_red">#FF8080</color>
+    <color name="color_orange">#FFBF80</color>
+    <color name="color_green">#DFFF80</color>
+    <color name="color_yellow">#FFFF80</color>
+    <color name="color_clayan">#80FFFF</color>
+    <color name="color_blue">#809FFF</color>
+    <color name="color_light_violet">#D891F2</color>
+    <color name="color_violet">#BF80FF</color>
+    <color name="color_pink">#FF80DF</color>
+    <color name="color_pink_2">#FB9EB5</color>
+
+
 </resources>

@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -24,6 +26,12 @@ android {
     dataBinding{
         enabled = true
     }
+    kapt {
+        javacOptions {
+            option("-Xmaxerrs", 5000)
+        }
+    }
+
 }
 
 dependencies {
@@ -36,4 +44,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    kapt 'androidx.lifecycle:lifecycle-compiler:2.0.0'
+    implementation "io.reactivex.rxjava2:rxjava:2.2.0"
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
+    implementation "io.reactivex.rxjava2:rxkotlin:2.3.0"
+    implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1"
+    implementation 'com.orhanobut:hawk:2.0.1'
+    implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:2.1.2'
 }
