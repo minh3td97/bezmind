@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
         bindOutputsFrom(finishViewModel)
 
         Handler().postDelayed({
-            //showWelcome()
-            showInfo()
+            showWelcome()
+            //showInfo()
             //showGame()
             //showFinish()
         }, 2000)
@@ -63,10 +63,14 @@ class MainActivity : AppCompatActivity() {
             }, "MainGameFragment")
             .commit()
     }
-    private fun showFinish(){
+    private fun showFinish(colorPlayer1: Int, colorPlayer2: Int, score: Int){
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.container, FinishFragment.newInstance(), "FinishFragment")
+            .replace(R.id.container, FinishFragment.newInstance().apply {
+                this.colorPlayer1 = colorPlayer1
+                this.colorPlayer2 = colorPlayer2
+                this.score = score
+            }, "FinishFragment")
             .commit()
     }
 
@@ -112,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                     .throttleFirst(1000, TimeUnit.MILLISECONDS)
                     .subscribe {
                         Timber.d("goToFinish")
-                        showFinish()
+                        showFinish(gameViewModel.colorPlayer1, gameViewModel.colorPlayer2, gameViewModel.scoreWinner)
                     }
             )
         }

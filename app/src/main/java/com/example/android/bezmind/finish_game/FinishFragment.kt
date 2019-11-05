@@ -1,5 +1,6 @@
 package com.example.android.bezmind.finish_game
 
+import android.annotation.SuppressLint
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.os.Handler
@@ -53,6 +54,7 @@ class FinishFragment: Fragment() {
 
     private var uiChangeHandler = Handler()
 
+    @SuppressLint("SetTextI18n")
     private fun bindInputsTo(viewModel : FinishViewModel){
         with(binding){
             disposeBag.add(
@@ -62,12 +64,14 @@ class FinishFragment: Fragment() {
                         viewModel?.onGoBackInfor()
                     }
             )
+
         }
+        binding.score.text = "Score: " + this.score.toString()
     }
     private fun setColor4Layout(){
         var listColorGrad = IntArray(2)
-        listColorGrad[0] = resources.getColor(R.color.color_red)
-        listColorGrad[1] = resources.getColor(R.color.color_orange)
+        listColorGrad[0] = colorPlayer1
+        listColorGrad[1] = colorPlayer2
 
         var gradient = GradientDrawable()
         gradient.setColors(listColorGrad)

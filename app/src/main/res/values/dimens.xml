@@ -3,6 +3,6 @@
     <dimen name="welcome_text_padding">40dp</dimen>
     <dimen name="constraint_size">64dp</dimen>
     <dimen name="constraint_size_2">48dp</dimen>
-    <dimen name="card_size">60dp</dimen>
+    <dimen name="card_size">54dp</dimen>
     <dimen name="winner_size">90sp</dimen>
 </resources>

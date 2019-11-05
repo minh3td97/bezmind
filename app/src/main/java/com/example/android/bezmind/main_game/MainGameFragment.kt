@@ -73,6 +73,7 @@ class MainGameFragment : Fragment(){
                     newCurrentSide: EasyFlipView.FlipState?
                 ) {
                     if (newCurrentSide == EasyFlipView.FlipState.BACK_SIDE){
+                        listFlipState[index].isFlipEnabled = false
                         listOpenedSlot.add(index)
                         if(isFirstFlip){
                             isFirstFlip = false
@@ -97,7 +98,6 @@ class MainGameFragment : Fragment(){
                 }
             })
         }
-
     }
     private fun setupListImageIndex(){
         listImages.add(R.drawable.card1)
@@ -128,7 +128,7 @@ class MainGameFragment : Fragment(){
             listIndex.add(index)
         }
         listIndex.shuffle()
-        val nuImage = listImages.size/3
+        val nuImage = listImages.size * 0.4
         var counter = 0
         var imageIndex = 0
         listIndex.forEach{
@@ -151,8 +151,6 @@ class MainGameFragment : Fragment(){
 
     }
 
-
-
     private fun setupColorOfScene(){
         var listColorGrad = IntArray(2)
         listColorGrad[0] = colorPlayer1
@@ -166,13 +164,12 @@ class MainGameFragment : Fragment(){
         gradient.orientation = GradientDrawable.Orientation.BL_TR
         binding.backgroudGradient.background = gradient
         binding.backgroudGradient.alpha = 0.6f
-
-
     }
 
     private fun flipAllDown(){
         listOpenedSlot.forEach{value ->
             uiChangeHandler.post{
+                listFlipState[value].isFlipEnabled = true
                 listFlipState[value].flipTheView()
             }
         }
