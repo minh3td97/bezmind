@@ -1,4 +1,6 @@
 # Bezmind
 Bezmind is the game application
-# Technologies: Android Studio
+# Technologies: 
+Android Studio
 # Screen shoot
+
