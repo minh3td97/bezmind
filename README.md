@@ -2,7 +2,7 @@
 Bezmind is the game application
 # Technologies: 
 Android Studio
-# Screen shoot
+# Screen shoots
 Firstly, users will go to welcome scene
 ![Welcome Scene](https://github.com/minh3td97/bezmind/blob/master/images/WelcomeScene.png)
 
